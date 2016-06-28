@@ -1,0 +1,69 @@
+body {
+    font-size: 1em;
+    background-color: black;
+    /*    -webkit-font-smoothing: antialiased;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    border: #cccccc 1px solid;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+#refresh-btn {
+    margin-bottom: 20px;
+}
+
+.reading {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #cccccc 1px solid;
+}
+
+.reading .links {
+    float: right;
+}
+
+.reading .links a {
+    margin-left: 10px;
+}
+
+.reading .metadata {
+    font-style: oblique;
+}
+
+.reading .metadata .user {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.reading .id, .reading .temperature {
+    color: aliceblue;
+}
+
+.reading .location {
+    color: aqua;
+}
+
+.right {
+    float: right;
+}
+
+.registerLink {
+    display: none;
+}

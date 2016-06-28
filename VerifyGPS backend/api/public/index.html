@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Readings | Overview</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="readings">
+        </div>
+        <form id="reading-form">
+            <span class="form-element">
+                <input type="text" id="userName" name="userName" placeholder="Enter username" />
+            </span>
+            <span class="form-element">
+                <input type="text" id="date" name="date" placeholder="Enter date (dd-mm-yyyy)" />
+            </span>
+            <span class="form-element">
+                <input type="text" id="device" name="device" placeholder="Enter device type" />
+            </span>
+            <span class="form-element">
+                <input type="text" id="location" name="location" placeholder="Enter location as lat, long" />
+            </span>
+            <span class="form-element">
+                <input type="text" id="temperature" name="temperature" placeholder="Ambient temperature" />
+            </span>
+            <span class="form-element">
+                <button type="submit" form="reading-form" value="Add reading">Add reading</button>
+            </span>
+        </form>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/dpd.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/date.format.js"></script>
+</body>
+</html>

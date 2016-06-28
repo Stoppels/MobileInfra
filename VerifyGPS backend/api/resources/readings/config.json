@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"date": {
+			"name": "date",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "date",
+			"order": 0
+		},
+		"device": {
+			"name": "device",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "device",
+			"order": 1
+		},
+		"location": {
+			"name": "location",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "location",
+			"order": 2
+		},
+		"temperature": {
+			"name": "temperature",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "temperature",
+			"order": 3
+		},
+		"user": {
+			"name": "user",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "user",
+			"order": 4
+		}
+	}
+}

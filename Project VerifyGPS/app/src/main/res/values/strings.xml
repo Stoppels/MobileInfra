@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VerifyGPS</string>
+    <string name="main_list_empty">There are no readings</string>
+    <string name="action_refresh">Refresh list</string>
+    <string name="main_menu_add">Add</string>
+    <string name="title_activity_add_task">Add a new reading</string>
+    <string name="title_activity_edit_task">Edit an existing reading</string>
+    <string name="title_activity_details">Reading details</string>
+    <string name="taskTitlePlaceholder">Reading date</string>
+    <string name="taskDescriptionPlaceholder">Reading device</string>
+    <string name="DetailViewDescription">Description of the reading</string>
+    <string name="DetailViewTitle">Reading date</string>
+    <string name="action_deleteAll">Delete all</string>
+    <string name="ok">OK</string>
+    <string name="deleteTaskTitle">Delete reading</string>
+    <string name="editTask">Edit reading</string>
+</resources>
